@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        enabled: false
+      config:
+        enabled: false
+        import-check:
+          enabled: false
+    sentinel:
+      enabled: false
+      transport:
+        dashboard: ""
+
+mes:
+  material:
+    minimum-stock-threshold: 10
+    reorder-multiplier: 2
+
+logging:
+  level:
+    com.mes.cloud: DEBUG
