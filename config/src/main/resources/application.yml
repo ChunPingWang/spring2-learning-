@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: mes-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ChunPingWang/spring-boot2-tutorial-config
+          default-label: main
+          search-paths: config
+          timeout: 10
+          skip-ssl-validation: true

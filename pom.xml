@@ -38,6 +38,8 @@
         <module>openfeign</module>
         <module>loadbalancer</module>
         <module>sleuth</module>
+        <module>config</module>
+        <module>bus</module>
     </modules>
 
     <properties>
