@@ -19,19 +19,19 @@
     <description>教學用 MES 專案 - DDD, Hexagonal Architecture, CQRS, SOLID</description>
 
     <modules>
-        <module>mes-common</module>
-        <module>mes-boot-basics</module>
-        <module>mes-web-api</module>
-        <module>mes-mybatis</module>
-        <module>mes-kafka</module>
-        <module>mes-security</module>
-        <module>mes-gateway</module>
-        <module>mes-redis</module>
-        <module>mes-cloud-alibaba</module>
-        <module>mes-jpa</module>
-        <module>mes-testing</module>
-        <module>mes-batch</module>
-        <module>mes-actuator</module>
+        <module>common</module>
+        <module>boot-basics</module>
+        <module>web-api</module>
+        <module>mybatis</module>
+        <module>kafka</module>
+        <module>security</module>
+        <module>gateway</module>
+        <module>redis</module>
+        <module>cloud-alibaba</module>
+        <module>jpa</module>
+        <module>testing</module>
+        <module>batch</module>
+        <module>actuator</module>
     </modules>
 
     <properties>
