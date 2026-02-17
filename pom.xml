@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>com.mes</groupId>
-    <artifactId>spring2-learning</artifactId>
+    <artifactId>spring-boot2-tutorial</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>MES Spring Boot 2 Learning</name>
+    <name>MES Spring Boot 2 Tutorial</name>
     <description>教學用 MES 專案 - DDD, Hexagonal Architecture, CQRS, SOLID</description>
 
     <modules>
